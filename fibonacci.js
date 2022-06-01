@@ -10,7 +10,8 @@ function fibonacci0() {
   }
 }
 
-/* sol allows function reuse of fib nums other than 10 */ 
+/* sol allows function reuse */ 
+/* can compute fib nums other than 10 */ 
 function fibonacci(i) {
   if (i == 1){
     return 0; 
