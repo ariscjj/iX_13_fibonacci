@@ -1,4 +1,16 @@
-/* calcs nth fibonacci number */ 
+/* primary solution */ 
+function fibonacci0() {
+  first = 0; 
+  second = 1; 
+  for (i = 3; i <=10; i++){
+    fib = first + second 
+    console.log(fib); 
+    first = second
+    second = fib
+  }
+}
+
+/* sol allows function reuse of fib nums other than 10 */ 
 function fibonacci(i) {
   if (i == 1){
     return 0; 
@@ -19,5 +31,5 @@ function first(i) {
   }
 }; 
 
-/* for first 10 fibonacci digits: */ 
+/* func returns first 10 fib digits: */ 
 first(10); 
